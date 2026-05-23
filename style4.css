@@ -1,0 +1,47 @@
+/* MustikaAngeliaBrSaragih_202432053 */
+body{
+    background: linear-gradient(135deg, #111827 0%, #2c3e50 100%);
+    min-height: 100vh;
+}
+
+/* CARD */
+.login-card{
+    width: 25rem;
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(8px);
+    border-radius: 15px;
+    color: white;
+}
+
+/* INPUT */
+.form-control{
+    border: none;
+    padding: 12px;
+}
+
+.input-group-text{
+    background: white;
+    border: none;
+}
+
+/* BUTTON */
+.btn-warning{
+    font-size: 15px;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.btn-warning:hover{
+    transform: scale(1.02);
+}
+
+/* NAVBAR */
+.nav-link{
+    color: rgba(255,255,255,0.8) !important;
+    margin-left: 10px;
+    transition: 0.3s;
+}
+
+.nav-link:hover{
+    color: #f1c40f !important;
+}

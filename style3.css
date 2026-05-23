@@ -1,0 +1,118 @@
+/* MustikaAngeliaBrSaragih_202432053 */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f4f7f6;
+    margin: 0;
+}
+
+/* HEADER */
+header{
+    background: #4d73b9;
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+}
+
+header h1{
+    margin-bottom: 15px;
+    font-size: 42px;
+}
+
+/* NAVIGATION */
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 8px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover{
+    background: rgba(255, 255, 255, 0.2);
+}
+
+nav ul li a.active{
+    background: white;
+    color: #4d73b9;
+    font-weight: bold;
+}
+
+/* MAIN */
+main{
+    padding: 40px 20px;
+}
+
+/* FORM */
+.reg-form{
+    max-width: 650px;
+    margin: auto;
+}
+
+
+fieldset{
+    border: none;
+    border-top: 5px solid #4d73b9;
+    border-radius: 8px;
+    background: white;
+    padding: 40px 30px 30px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* LEGEND */
+legend{
+    font-size: 28px;
+    font-weight: bold;
+    color: #4d73b9;
+    padding: 0 10px;
+}
+
+
+.form-group{
+    margin-bottom: 20px;
+}
+
+/* INPUT */
+input[type="text"],
+select,
+textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+/* CHECKBOX */
+.checkbox-group label{
+    display: inline-block;
+    margin-right: 15px;
+    font-weight: normal;
+}
+
+/* BUTTON */
+button{
+    width: 100%;
+    padding: 12px;
+    background: #4d73b9;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    background: #35589b;
+}
